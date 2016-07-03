@@ -28,7 +28,7 @@ var cam = new v4l2camera.Camera("/dev/video0");
     	console.log("New connection")
     	conn.on("text", function (str) {
     		console.log("Received "+str)
-        response = JSON.stringify(str)
+        response = JSON.parse(str)
 // gonna replace this with a switch but im lazy
 
         if (response.gripcam == true) {
