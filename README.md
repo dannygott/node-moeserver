@@ -1,1 +1,1 @@
-node-moeserver
+node-moe server

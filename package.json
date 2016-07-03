@@ -1,0 +1,28 @@
+{
+  "name": "nodemoeserver",
+  "version": "1.0.0",
+  "description": "a server that serves",
+  "main": "server.js",
+  "dependencies": {
+    "nodejs-websocket": "^1.6.0",
+    "node-http-server": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dannygott/node-moeserver"
+  },
+  "keywords": [
+    "server",
+    "moe",
+    "raspberry",
+    "pi",
+    "365"
+  ],
+  "author": "",
+  "license": "ISC"
+}
